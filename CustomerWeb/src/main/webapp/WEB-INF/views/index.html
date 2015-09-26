@@ -1,0 +1,22 @@
+
+<html xmlns:th="http://www.thymeleaf.org">
+  <head>
+   
+     <link  th:href="@{/resources/static/style/app.css}" rel="stylesheet" media="screen"/>
+  </head>
+  <body>
+    <div th:if="${not #lists.isEmpty(customers)}">
+    <table>
+     <thead> Customers </thead>
+     <tbody>
+		<tr th:each="customer : ${customers}">
+		        <td th:text="${customer.name}">John</td>
+		        <td th:text="${customer.lastName}">Smith</td>
+		</tr>
+     </tbody>
+    </table>
+	</div>
+<div>
+	<h1>hola mundo!!!</h1>
+</div>
+</body></html>

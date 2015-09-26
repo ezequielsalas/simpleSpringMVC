@@ -1,0 +1,34 @@
+package com.ezequiel.customerweb.service.impl;
+
+import java.util.ArrayList;
+import java.util.List;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Component;
+
+import com.ezequiel.customerweb.customer.CustomerDomain;
+import com.ezequiel.customerweb.service.CustomerService;
+import com.ezequiel.repository.customer.CustomerRepository;
+
+@Component
+public class CustomerServiceImpl implements CustomerService{
+	
+
+
+	@Override
+	public List<CustomerDomain> getAllCustomer() {
+		List<CustomerDomain> customers = new ArrayList<CustomerDomain>();// customerRepository.findAll();
+		customers.add(new CustomerDomain("Juan","Martinez",1L));
+		customers.add(new CustomerDomain("Pedro","Perez",2L));
+		customers.add(new CustomerDomain("Maria","Gutierrez",3L));
+		
+		return customers;
+	}
+
+	@Override
+	public void register(CustomerDomain customer) {
+		System.out.println(customer);
+//		customerRepository.save(customer);
+	}
+
+}
