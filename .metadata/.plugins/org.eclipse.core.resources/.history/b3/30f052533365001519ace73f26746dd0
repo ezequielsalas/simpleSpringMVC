@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+
+</head>
+<body>
+
+	<tr th:each="customer : ${customers}">
+								<td th:text="${customer.custId}">1</td>
+								<td th:text="${customer.name}">John</td>
+								<td th:text="${customer.lastName}">Smith</td>
+							</tr>
+</body>
+</html>

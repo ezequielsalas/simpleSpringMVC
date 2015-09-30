@@ -1,0 +1,20 @@
+ $("#formSearch").submit(function(event) {
+	 //Ajax request with form complete
+	 event.preventDefault();
+        $.get("/customerweb/filter", $("#formSearch").serialize()) //Serialize looks good name=textInNameInput&&telefon=textInPhoneInput---etc
+        .done(function(data) {
+        	$('#tableResul').html(data);
+        });
+        return false;
+    });
+
+
+$("#loadTableBtn").click(function(){
+	   $("#tableResul").load("/customerweb/results");
+//	
+//	var content;
+//	$.get('/customerweb/results', function(data){
+//	    content= data;
+//	    $('#tableResul').append($("").html(content));
+//	});
+});

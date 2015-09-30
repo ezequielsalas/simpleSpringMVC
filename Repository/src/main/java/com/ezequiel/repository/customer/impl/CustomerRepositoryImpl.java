@@ -7,6 +7,7 @@ import javax.persistence.EntityManager;
 import javax.persistence.PersistenceContext;
 
 import org.springframework.stereotype.Repository;
+import org.springframework.transaction.annotation.Transactional;
 
 import com.ezequiel.customerweb.customer.CustomerDomain;
 import com.ezequiel.repository.CustomerEntity;
@@ -26,15 +27,16 @@ public class CustomerRepositoryImpl implements CustomerRepository {
 		
 		return results;
 	}
-
-	public void save(CustomerDomain customer) {
+	@Transactional
+	public CustomerDomain save(CustomerDomain customer) {
 		CustomerEntity customerEntity = new CustomerEntity();
 		customerEntity.setName(customer.getName());
 		customerEntity.setLastName(customer.getLastName());
 		customerEntity.setCode(String.valueOf(customer.getCustId()));
 		
 		entityManager.persist(customerEntity);
-		
+
+		return customer;
 	}
 
 }

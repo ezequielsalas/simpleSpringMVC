@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring clone="true" comment="Infer generic type arguments on &apos;Repository&apos;&#x0A;- Original project: &apos;Repository&apos;&#x0A;- Original elements:&#x0A;     com.ezequiel.repository.customer.impl.CustomerRepositoryImpl.java&#x0A;- Assume clone() returns an instance of the receiver type&#x0A;- Leave unconstrained type arguments raw" description="Infer generic type arguments" element1="/src\/main\/java&lt;com.ezequiel.repository.customer.impl{CustomerRepositoryImpl.java" flags="6" id="org.eclipse.jdt.ui.infer.typearguments" leave="true" stamp="1440382270592" version="1.0"/>
+</session>

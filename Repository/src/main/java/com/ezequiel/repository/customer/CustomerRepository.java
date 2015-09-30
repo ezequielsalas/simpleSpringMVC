@@ -9,5 +9,5 @@ public interface CustomerRepository {
 
 	public List<CustomerDomain> findAll();
 
-	public void save(CustomerDomain customer);
+	public CustomerDomain save(CustomerDomain customer);
 }

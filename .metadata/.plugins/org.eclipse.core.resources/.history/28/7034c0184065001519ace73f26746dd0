@@ -1,0 +1,13 @@
+$("#buttonSubmit").click(function(){
+	alert("Hola mundo");
+//    $.ajax({url: "demo_test.txt", success: function(result){
+//        $("#div1").html(result);
+//    }});
+
+});
+
+
+$("#loadTableBtn").click(function(){
+//	   $("#tableResul").load("/customerweb/results");
+	$("#tableResul").append($("<div>").load("/customerweb/results"));
+});

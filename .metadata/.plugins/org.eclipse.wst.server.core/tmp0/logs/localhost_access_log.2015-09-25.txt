@@ -1,0 +1,16 @@
+127.0.0.1 - - [25/Sep/2015:22:49:43 -0400] "GET / HTTP/1.1" 404 951
+127.0.0.1 - - [25/Sep/2015:22:49:45 -0400] "GET /customerweb/ HTTP/1.1" 500 26388
+127.0.0.1 - - [25/Sep/2015:22:54:23 -0400] "GET / HTTP/1.1" 404 951
+127.0.0.1 - - [25/Sep/2015:22:54:24 -0400] "GET /customerweb/ HTTP/1.1" 200 3981
+127.0.0.1 - - [25/Sep/2015:22:54:24 -0400] "GET /assets/js/ie-emulation-modes-warning.js HTTP/1.1" 404 1029
+127.0.0.1 - - [25/Sep/2015:22:54:24 -0400] "GET /customerweb/resources/static/style/bootstrap.min.css HTTP/1.1" 200 122540
+127.0.0.1 - - [25/Sep/2015:22:54:24 -0400] "GET /customerweb/resources/static/style/app.css HTTP/1.1" 200 1053
+127.0.0.1 - - [25/Sep/2015:22:54:24 -0400] "GET /customerweb/resources/static/js/bootstrap.min.js HTTP/1.1" 200 36816
+127.0.0.1 - - [25/Sep/2015:22:56:04 -0400] "GET /customerweb/ HTTP/1.1" 200 3981
+127.0.0.1 - - [25/Sep/2015:22:56:04 -0400] "GET /customerweb/resources/static/style/app.css HTTP/1.1" 200 1053
+127.0.0.1 - - [25/Sep/2015:22:56:04 -0400] "GET /assets/js/ie-emulation-modes-warning.js HTTP/1.1" 404 1029
+127.0.0.1 - - [25/Sep/2015:22:56:04 -0400] "GET /customerweb/resources/static/style/bootstrap.min.css HTTP/1.1" 200 122540
+127.0.0.1 - - [25/Sep/2015:22:56:04 -0400] "GET /customerweb/resources/static/js/bootstrap.min.js HTTP/1.1" 200 36816
+127.0.0.1 - - [25/Sep/2015:22:56:05 -0400] "GET /favicon.ico HTTP/1.1" 404 973
+127.0.0.1 - - [25/Sep/2015:22:56:15 -0400] "GET /customerweb/? HTTP/1.1" 200 3981
+127.0.0.1 - - [25/Sep/2015:22:56:15 -0400] "GET /assets/js/ie-emulation-modes-warning.js HTTP/1.1" 404 1029

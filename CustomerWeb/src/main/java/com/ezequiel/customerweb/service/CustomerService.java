@@ -7,6 +7,7 @@ import com.ezequiel.customerweb.customer.CustomerDomain;
 public interface CustomerService {
 	
 	public List<CustomerDomain> getAllCustomer();
-	public void register(CustomerDomain customer);
+	public CustomerDomain register(CustomerDomain customer);
+	public List<CustomerDomain> filterCustomer(Long code, String name , String lastName);
 
 }

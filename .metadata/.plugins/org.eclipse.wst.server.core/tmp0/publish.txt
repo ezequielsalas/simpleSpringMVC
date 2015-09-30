@@ -1,0 +1,5 @@
+#Tomcat publish data
+#Wed Sep 30 08:04:05 AST 2015
+org.eclipse.jst.j2ee.server\:Domain=WEB-INF/lib/Domain-0.0.1-SNAPSHOT.jar
+org.eclipse.jst.j2ee.server\:Repository=WEB-INF/lib/Repository-0.0.1-SNAPSHOT.jar
+org.eclipse.jst.jee.server\:/binary\:/home/ezequiel/.m2/repository/org/springframework/spring-web/4.2.0.RELEASE/spring-web-4.2.0.RELEASE.jar=WEB-INF/lib/spring-web-4.2.0.RELEASE.jar
