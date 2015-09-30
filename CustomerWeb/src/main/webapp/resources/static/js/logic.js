@@ -3,7 +3,6 @@
 	 event.preventDefault();
         $.get("/customerweb/save", $("#formSearch").serialize()) //Serialize looks good name=textInNameInput&&telefon=textInPhoneInput---etc
         .done(function(data) {
-        	alert(data);
         	$('#tableResul').append(data);
         });
         return false;
